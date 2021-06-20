@@ -15,6 +15,9 @@ import Login from "../views/User/Login";
 import NotFound from "../views/NotFound";
 import Main from "../views/User/Main";
 import MasterRegister from "../views/User/MasterRegister";
+import AddEmployee from "../views/Admin/AddEmployee";
+import DiplomaRegister from "../views/User/DiplomaRegister";
+import PhDRegister from "../views/User/PhDRegister";
 
 Vue.use(VueRouter)
 
@@ -25,6 +28,8 @@ const routes = [
       { path: '/services', component: Services },
       { path: '/about', component: About },
       { path: '/master-register', component: MasterRegister },
+      { path: '/diploma-register', component:  DiplomaRegister},
+      { path: '/phd-register', component:  PhDRegister},
       ]
   },
   { path: '/login', component: Login },
@@ -35,6 +40,7 @@ const routes = [
       { path: '/admin/edit-subject', component: EditSubject },
       { path: '/admin/add-subject', component: AddSubject },
       { path: '/admin/add-department', component: AddDepartment },
+      { path: '/admin/add-employee', component: AddEmployee },
       ]
   },
   { path: '/:notFound(.*)', component: NotFound }

@@ -1,10 +1,10 @@
 <template>
   <div class="sidebar">
     <div class="sidebar-header">
-      <h3 class="brand">
+      <h4 class="brand">
         <span class="ti-unlink"></span>
-        &nbsp;<span>الداشبورد</span>
-      </h3>
+        &nbsp;<span>الصفحة الرئيسية</span>
+      </h4>
     </div>
     <div class="sidebar-menu">
       <ul>
@@ -39,15 +39,15 @@
           </router-link>
         </li>
         <li>
-          <router-link class="p-3" to="/admin/setting">
-            <span class="ti-time"></span>
-            <span class="mr-2"> الاعدادات</span>
+          <router-link class="p-3" to="/admin/add-employee">
+            <span class="ti-book"></span>
+            <span class="mr-2"> اضافة موظف جديد </span>
           </router-link>
         </li>
         <li>
-          <router-link class="p-3" to="/admin/contact">
-            <span class="ti-book"></span>
-            <span class="mr-2"> اضافة موظف جديد </span>
+          <router-link class="p-3" to="/admin/setting">
+            <span class="ti-time"></span>
+            <span class="mr-2"> الاعدادات</span>
           </router-link>
         </li>
         <li>
